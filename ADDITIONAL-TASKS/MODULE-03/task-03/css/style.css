@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    font-family: 'Playfair Display', serif;
+    width: 960px;
+    background-color: white;
+    margin: auto;
+    border: 1px solid grey;
+    padding: 30px 24px;
+    color: gray;
+  }
+
+  .article {
+    display: inline-block;
+    width: 420px;
+    margin-right: 66px;
+  }
+
+  .article:last-child {
+    margin-right: 0;
+}
+
+.article-image {
+    margin-bottom: 20px;
+    display: block;
+}
+
+  .article-category {
+      /* margin-top: 20px; */
+      display: block;
+  }
+
+  .article-title {
+      margin-top: 20px;
+      font-size: 30px;
+  }
+
+  .text {
+      margin-top: 20px;
+      display: block;
+  }
