@@ -16,25 +16,33 @@
 }
 
 .header {
-    /* background-color: gray; */
-    width: 573px;
     height: 191px;
+    width: 573px;
+    /* background-color:gray; */
     margin: auto;
+    display: block;
     text-align: center;
-    font-size: 11px;
 }
 
-.list-item {
-    /* background-color: black; */
-    height:11px;
-    width: 80px;
+.link-item {
     display: inline-block;
-    margin-right: 40px;
-    margin-top: 77px;
+    margin-right: 80px;
+    line-height: 191px;
 }
-.list-item:last-child {
+.link-item:last-child {
     margin-right: 0;
 }
+
+.link {
+    /* display: inline-block; */
+    font-size: 14px;
+    color: #626262;
+}
+
+.link:hover{
+    font-weight:600;
+}
+
 
 .main {
     /* background-color: green; */
@@ -105,4 +113,5 @@
 
 .button-button:hover {
     border: 2px solid #626262;
+    font-weight: 550;
 }
