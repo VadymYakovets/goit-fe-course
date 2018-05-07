@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.site-header {
+    padding: 30px;
+    /* background-color:green; */
+}
+
+.site-nav-list {
+    list-style: none;
+    text-transform: uppercase;
+    color:#0E1116;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2)
+}
+
+.site-nav-item {    
+    margin: 10px;
+}
+
+.site-nav-item:nth-child(3n-2) {
+    background-color: #88292F;
+}
+
+.site-nav-item:nth-child(3n-1) {
+    background-color: #5DB7DE;
+}
+
+.site-nav-item:nth-child(3n-3) {
+    background-color: #0D5D56;
+}

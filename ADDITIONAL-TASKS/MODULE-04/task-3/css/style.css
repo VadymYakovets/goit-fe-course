@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.site-nav {
+    padding: 15px;
+/* background-color: green; */
+}
+
+.site-list {
+}
+
+.site-item-list {
+    list-style: none;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.site-item-list::before {
+  content: '\2192';
+}
