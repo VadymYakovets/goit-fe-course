@@ -9,54 +9,43 @@
 
 .wrapper {
     width: 1200px;
-    height: 1666px;
-    /* background-color: yellow; */
-    padding-top: 30px;
+    padding: 30px 0;
     margin: auto;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    width: 1200px;
-    height: 42px;
-    /* background-color: gray; */
+    align-items: flex-end;
     margin-bottom: 126px;
-    font-size: 0;
     color: #95e1d3;
-    
 }
 
 .logo {
-    /* height: 55px; */
-    display: flex;
-    align-items: flex-start;
-    /* justify-content: flex-start; */
 }
 
 .logo-link {
     font-family: 'Montserrat', sans-serif;
     color: #95e1d3;
     font-size: 30px;
-    margin-top: -4px;
-    margin-bottom: -3px;
 }
 
 .navigation {
-    display: flex;
-    align-items: center;
+    width: 40%;
+    display: block;
+    margin-bottom: bottom;
+    padding-bottom: 4px;
     text-decoration: none;
+
 }
 
 .links {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 491px;
 }
 
 .link-list {
-    cursor: pointer;
 }
 
 .link-item {
@@ -65,41 +54,20 @@
     text-transform: uppercase;
     font-size: 14px;
     color: #95e1d3;
+    padding-bottom: 12px;
 }
 
-/* .links>.link-item:hover{
-    display: block;
-    content: '';
-    margin: auto;
-    height: 3px;
-    margin-top: 12px;
-    background-color: #f38181;
+.link-list:hover>.link-item {
+    box-shadow: 0px 3px 0 #f38181;
+    transition-duration: 200ms;
     text-shadow: -0.2px 0 #95e1d3, 0 0.2px #95e1d3, 0.2px 0 #95e1d3, 0 -0.2px #95e1d3;
-} */
-
-/* .link-item:hover {
-    text-shadow: -0.2px 0 #95e1d3, 0 0.2px #95e1d3, 0.2px 0 #95e1d3, 0 -0.2px #95e1d3;
-    background-color: #f38181;
-} */
-
-/* .link-item::after :hover {
-    background-color: #f38181;
-} */
+}
 
 .main {
-    width: 1200px;
-    height: min-1439px;
-    /* background-color: green; */
 }
 
 .title-1 {
-    width: 1200px;
-    min-height: 179px;
-    /* background-color: blueviolet; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
 .small-title {
@@ -117,20 +85,15 @@
 }
 
 .box {
+    margin: auto;
     height: 3px;
     width: 60px;
     background-color: #f38181;
     margin-top: 42px;
-    /* background-color: #fff; */
     margin-bottom: 46px;
 }
 
 .services {
-    width: 1200px;
-    min-height: 333px;
-    /* background-color: blue; */
-    display: flex;
-    /* align-items: center; */
 }
 
 .service-list {
@@ -140,77 +103,64 @@
 }
 
 .service-item {
-    display: block;
-    width: 29%;
+    width: 30%;
+    margin-bottom: 100px;
     display: flex;
-    align-items: flex-start;
-}
-
-.service-wrapper {
-    display: flex;
-    flex-direction: column;
 }
 
 .service-img {
     padding: 0 25px;
 }
 
+.service-wrapper {
+}
+
 .service-title {
-    font-weight: 100;
+    font-weight: 300;
     font-size: 14px;
     text-transform: uppercase;
-    margin-top: -4px;
     margin-bottom: 10px;
 }
 
 .service-text {
     font-size: 15px;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .title-2 {
-    width: 1200px;
-    min-height: 282px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
 .title-2-text {
     font-size: 15px;
-    text-align: center;
-    color: #999999;
+    color: #999;
     padding: 0 112px;
     margin-bottom: 55px;
 }
 
 .team {
-    min-height: 626px;
 }
 
 .team-list {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     border-bottom: 1px solid #e5e5e5; 
 }
 
 .team-item {
     position: relative;
-    width: 381px;
-    height: 625px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .member-pic {
+    margin-bottom: 30px;
 }
 
 .pic-wrapper:hover>.member-pic{
     transform: translate(-10px, -10px);
-    transition-duration: .3s;
+    transition-duration: .2s;
 }
 
 .member-name {
@@ -228,6 +178,7 @@
     color: #b6b6b6;
     font-weight: 300;
     margin-top: 16px;
+    margin-bottom: 84px;
 }
  
 .social-wrapper {
@@ -237,29 +188,28 @@
     width: 100%;
     height: 100%;
     background-image: linear-gradient( 90deg, rgba(252,227,138,0.9) 0%, rgba(243,129,129,0.9) 100%);
-    display: flex;
-    flex-direction: row;
+    display: none;
     justify-content: center;
     align-items: center;
-    display: none;
     box-shadow:         10px 10px 0px 0px #95e1d3;
 }  
 
 .social-block {
-    width: 224px;
+    width: 228px;
     height: 56px;
     display: flex;
+    justify-content: space-between;
 }
 
-.member-pic:hover>.social-wrapper {
+.pic-wrapper:hover>.member-pic>.social-wrapper {
     display: flex;
-    transition: 5.2s;
+    transition-duration: 200ms;
 }
 
 .item-hover {
     width: 56px;
     height: 56px;
-    border: 1px solid #f9bd87;
+    /* border: 1px solid #f9bd87; мне показалось, что бордер лишний, компенсировал его за счет отступа между блоками соц. сетей*/
     background-color: #fce38a; 
     text-decoration: none;
     display: flex;
@@ -297,52 +247,33 @@
     height: 30px;
 }
 
-/* .footer::before {
-    display: block;
-    border: 3px solid #000
-} */
-
 .footer {
-    width: 1200px;
-    height: 50x;
-    /* background-color: #000; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
-    margin-bottom: 26px;
 } 
 
 .footer-text {
-    width: 500px;
-    height: 40px;
-    /* background-color: green; */
-    display: flex;
-    align-items: center; 
 }
 
 .text {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
-    color: #000;
-    font-weight: 200;
+    color: #333;
+    font-weight: 300;
 }
 
 .footer-link {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
-    font-weight: 200;
+    font-weight: 300;
     color: #f38181;
     margin-left: 5px;
 }
 
 .subscribe {
-    width: 500px;
-    height: 40px;
-    /* background-color: red; */
-    display: flex;
-    justify-content: flex-end;
 }
 
 .subscribe-button {
@@ -354,6 +285,8 @@
     text-transform: uppercase;
     font-weight: 500;
     color: #fff;
+    border: none;
+    cursor: pointer;
 }
 
 .input-email {
@@ -362,7 +295,14 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-style: italic;
-    color: #000;
-    /* background-color: blue; */
+    color: #333;
     border: 1px solid #e7e7e7;
+}
+
+.input-email::-webkit-input-placeholder {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    color: #cccccc;
+    font-weight: 100;
 }
