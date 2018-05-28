@@ -2,8 +2,8 @@
     font-family: 'Petit Formal Script';
     font-style: normal;
     font-weight: 400;
-    src: url('../Fonts/petit-formal-script-v5-latin/petit-formal-script-v5-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('./fonts/petit-formal-script-v5-latin/petit-formal-script-v5-latin-regular.woff') format('woff');
+    src: url('../Fonts/petit-formal-script-v5-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/petit-formal-script-v5-latin-regular.woff') format('woff');
   }
 
   /* montserrat-100 - latin */
