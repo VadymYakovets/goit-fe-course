@@ -43,6 +43,8 @@
 .service-title {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 15px;
 }
 
 .service-description {
