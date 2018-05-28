@@ -203,7 +203,7 @@
 
 .pic-wrapper:hover>.member-pic>.social-wrapper {
     display: flex;
-    transition-duration: 200ms;
+    transition-timing-function: 2000ms linear;
 }
 
 .item-hover {
@@ -220,7 +220,7 @@
 .social-list:hover>.item-hover {
     transform: rotateY(720deg);
     transition-duration: 2.2s;
-    transition-delay: .5s;
+    transition-delay: .4s;
     background-color: #95e1d3; 
 }
 

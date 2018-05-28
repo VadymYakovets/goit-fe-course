@@ -1,0 +1,100 @@
+.form-wrapper {
+    min-width: 580px;
+    padding: 110px 0;
+    background-color: #000;
+    background-image: url('../img/Map\ Image.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.second-title {
+    color: #fff;
+}
+
+.request-form {
+    max-width: 940px;
+    margin: 100px auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 27px;
+}
+
+.first-block {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input {
+    padding: 18px;
+    height: 52px;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.3);
+    font-size: 16px;
+}
+
+input:nth-last-child(n+2) {
+    margin-bottom: 27px;
+}
+
+textarea {
+    width: 100%;
+    height: 100%;
+    padding: 20px;    
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.3);
+    font-size: 16px;
+    background-color: #fff;
+}
+
+.second-block {
+    width: 48%;
+    display: flex;
+}
+
+button {
+    background-color: #fed136;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    padding: 25px 48px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.3);
+}
+
+input::placeholder {
+    font-family: 'Montserrat',sans-serif;
+    text-transform: uppercase;
+    color: #bbb;
+    font-size: 16px;
+}
+
+textarea::placeholder {
+    font-family: 'Montserrat',sans-serif;
+    text-transform: uppercase;
+    color: #bbb;
+    font-size: 16px;
+}
+
+input:valid {
+    outline-color: #008000;
+}
+
+input:invalid {
+    outline-color: #ff0000;
+}
+
+textarea:valid {
+    outline-color: #008000;
+}
+
+textarea {
+    outline-color: #ff0000;
+}

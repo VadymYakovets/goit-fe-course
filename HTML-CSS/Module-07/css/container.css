@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 0;
+    box-sizing: border-box;
+}
+
+.site-wrapper {
+    display: block;
+    max-width: 980px;
+    min-width: 550px;
+    padding: 10px;
+    margin: auto;
+}
