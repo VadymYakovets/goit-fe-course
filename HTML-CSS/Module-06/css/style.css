@@ -201,6 +201,7 @@
     height: 56px;
     display: flex;
     justify-content: space-between;
+    list-style: none;
 }
 
 .pic-wrapper:hover>.member-pic>.social-wrapper {
