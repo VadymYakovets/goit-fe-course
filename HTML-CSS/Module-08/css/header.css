@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0;
+    list-style: none;
+}
+
+.content-wrapper {
+
+}
+
+.header-title-wrapper {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), 
+                      url('../Img/Vector\ Smart\ Object1200.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* padding: 100px; */
+}
+
+.header {
+    width: 320px;
+    /* min-width: 20rem; */
+    /* max-width: 48rem; */
+    margin: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
+}
+
+.logo {
+    margin-top: 127px;
+}
+
+.logo-link {
+    /* font-size: 1.25rem; */
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 400;
+}
+
+.nav-link {
+    
+}
+
+.navigation {
+    width: 53%;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-item {
+    margin-top: 5px;
+    border-radius: 50px/50px;
+    border: 1px solid rgba(255, 255, 255, 0.0);
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.nav-link {
+    /* font-size: 0.87rem; */
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.nav-item:hover {
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.site-title {
+    margin: auto;
+    padding-bottom: 138px;
+}
+
+.main-title {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.title-text {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px 50px;
+}
+
+.title-button {
+    background-color: rgb(255, 78, 80);
+    border-radius: 50px/50px;
+    display: flex;
+    padding: 14px 48px;
+    margin: auto;
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.button-link {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.title-button:hover {
+    background-color: rgb(240, 73, 76);
+    border: 1px solid rgba(255, 255, 255, 0.3)
+}
