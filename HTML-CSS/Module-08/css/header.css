@@ -22,7 +22,7 @@
 }
 
 .header {
-    width: 320px;
+    min-width: 320px;
     /* min-width: 20rem; */
     /* max-width: 48rem; */
     margin: auto;
@@ -30,7 +30,6 @@
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-
 }
 
 .logo {
@@ -50,7 +49,7 @@
 }
 
 .navigation {
-    width: 53%;
+    /* width: 53%; */
 }
 
 .nav-list {
@@ -89,7 +88,7 @@
     color: #fff;
     font-weight: 700;
     text-align: center;
-    margin-top: 40px;
+    margin: 40px 4%;
 }
 
 .title-text {
@@ -97,7 +96,7 @@
     color: #fff;
     font-weight: 400;
     text-align: center;
-    padding: 20px 50px;
+    padding: 20px 18%;
 }
 
 .title-button {
@@ -119,3 +118,55 @@
     background-color: rgb(240, 73, 76);
     border: 1px solid rgba(255, 255, 255, 0.3)
 }
+
+@media (min-width: 768px) {
+    
+    .header-title-wrapper {
+        padding: 0px 1.3%;
+    }
+
+    .header {
+        min-width: 768px;
+        /* min-width: 20rem; */
+        /* max-width: 48rem; */
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+
+    .logo {
+        margin-top: 46px;
+    }
+
+    .nav-item {
+        margin-top: 46px;
+    }
+
+    .site-title {
+        padding: 155px 30% 234px;
+    }
+
+    .main-title {
+        margin: 0;
+    }
+
+    .title-text {
+        padding: 20px 0%;
+    }
+
+}
+
+    @media (min-width: 942px) {
+
+        .header {
+            max-width: 942px;
+        }
+
+        .site-title {
+            max-width: 942px;
+            padding: 155px 260px 234px;
+        }
+
+    }

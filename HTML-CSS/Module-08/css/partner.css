@@ -15,8 +15,7 @@
 .partner-title {
     font-size: 22px;
     text-align: center;
-    margin: 70px 24px;
-    margin-bottom: 20px;
+    margin: 70px 7.5% 20px;
 }
 
 .partner-box {
@@ -99,7 +98,7 @@
     text-align: center;
     color: #7a7a7a;
     margin-bottom: 30px;
-    padding: 0 52px;
+    padding: 0 17%;
 }
 
 .partner-button {
@@ -122,4 +121,50 @@
 
 .partner-button:hover {
     text-shadow: -0.3px 0 #ff4e50, 0 0.3px #ff4e50, 0.3px 0 #ff4e50, 0 -0.3px #ff4e50;
+}
+
+@media (min-width: 768px) {
+
+    .parter-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .parner-item {
+        width: 35%;
+    }
+
+    .one {
+        order: 1;
+    }
+
+    .two {
+        order: 3;
+    }
+
+    .three {
+        order: 2;
+    }
+
+    .four {
+        order: 4;
+    } 
+
+}
+
+@media (min-width: 942px) {
+
+    .parter-list {
+        max-width: 942px;
+        margin: auto;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    .parner-item {
+        width: 40%;
+    }
+
 }
