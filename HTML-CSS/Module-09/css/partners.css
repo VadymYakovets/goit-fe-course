@@ -1,0 +1,109 @@
+.partners {
+    background-color: #fff;
+}
+
+.partner-title {
+    font-size: 1.375rem;
+    text-align: center;
+    margin: 4.375rem 7.5% 1.375rem;
+}
+
+.partner-img {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-box {
+    position: relative;
+}
+
+.image-partner {
+    border-radius: 50%;
+}
+
+.hobby-block {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    padding: 0.5rem;
+    border: 0.1875rem solid #fff;
+}
+
+.red {
+    background-color: #ff4e50;
+}
+
+.yellow {
+    background-color: #ffa507;
+}
+
+.green {
+    background-color: #1cd7ad;
+}
+
+.blue {
+    background-color: #4e73db;
+}
+
+.partner-name {
+    font-size: 0.875rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.partner-description {
+    font-size: 0.875rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    color: #7a7a7a;
+    margin-bottom: 1.875rem;
+    padding: 0 15%;
+}
+
+.partner-button {
+    background-color: #fff;
+    border-radius: 3.125rem/3.125rem;
+    display: flex;
+    margin: auto;
+    border: 0.125rem solid  rgb(255, 78, 80);
+    margin-top: 1.8125rem;
+    margin-bottom: 3.5625rem;
+    cursor: pointer;
+}
+
+.parner-button-link {
+    font-size: 0.875rem;
+    padding: 0.825rem 2.9rem;
+    color: #ff4e50;
+}
+
+.partner-button:hover {
+    text-shadow: -0.01875rem 0 #ff4e50, 0 0.01875rem #ff4e50, 0.01875rem 0 #ff4e50, 0 -0.01875rem #ff4e50;
+}
+
+@media (min-width: 768px) {
+
+    .row {
+        display: flex;
+        flex-direction: ;
+    }
+
+    .partner-description {
+        padding: 0 14%;
+    }
+
+}
+
+@media (min-width: 942px) {
+
+    .partner-description {
+        padding: 0 4%;
+    }
+
+
+
+}
