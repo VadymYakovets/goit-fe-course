@@ -1,10 +1,9 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
-    font-size: 0;
     list-style: none;
 }
 
@@ -18,27 +17,22 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /* padding: 100px; */
 }
 
 .header {
-    min-width: 320px;
-    /* min-width: 20rem; */
-    /* max-width: 48rem; */
+    min-width: 20rem;
     margin: auto;
-    /* border: 1px solid red; */
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
 }
 
 .logo {
-    margin-top: 127px;
+    margin-top: 7.93rem;
 }
 
 .logo-link {
-    /* font-size: 1.25rem; */
-    font-size: 20px;
+    font-size: 1.25rem;
     text-transform: uppercase;
     color: #fff;
     font-weight: 400;
@@ -49,7 +43,6 @@
 }
 
 .navigation {
-    /* width: 53%; */
 }
 
 .nav-list {
@@ -59,76 +52,74 @@
 }
 
 .nav-item {
-    margin-top: 5px;
-    border-radius: 50px/50px;
-    border: 1px solid rgba(255, 255, 255, 0.0);
-    padding: 8px 16px;
+    margin-top: 0.3125rem;
+    border-radius: 3.125rem/3.125rem;
+    border: 0.0625rem solid rgba(255, 255, 255, 0.0);
+    padding: 0.5rem 1rem;
     cursor: pointer;
 }
 
 .nav-link {
-    /* font-size: 0.87rem; */
-    font-size: 14px;
+    font-size: 0.875rem;
     color: #fff;
     font-weight: 400;
 }
 
 .nav-item:hover {
-    border: 1px solid rgba(255, 255, 255, 1);
+    border: 0.0625rem solid rgba(255, 255, 255, 1);
 }
 
 .site-title {
     margin: auto;
-    padding-bottom: 138px;
+    padding-bottom: 8.625rem;
 }
 
 .main-title {
-    font-size: 30px;
+    font-size: 1.875rem;
     text-transform: uppercase;
     color: #fff;
     font-weight: 700;
     text-align: center;
-    margin: 40px 4%;
+    margin: 2.5rem 4%;
 }
 
 .title-text {
-    font-size: 14px;
+    font-size: 0.825rem;
     color: #fff;
     font-weight: 400;
     text-align: center;
-    padding: 20px 18%;
+    /* padding: 1.25rem 0.25rem; */
 }
 
 .title-button {
     background-color: rgb(255, 78, 80);
-    border-radius: 50px/50px;
+    border-radius: 3.125rem/3.125rem;;
     display: flex;
-    padding: 14px 48px;
+    padding: 0.825rem 3rem;
     margin: auto;
-    border: 1px solid rgba(255, 255, 255, 0);
+    border: 0.0625rem solid rgba(255, 255, 255, 0);
+    cursor: pointer;
 }
 
 .button-link {
-    font-size: 14px;
+    font-size: 0.825rem;
     color: #fff;
     font-weight: 400;
 }
 
 .title-button:hover {
     background-color: rgb(240, 73, 76);
-    border: 1px solid rgba(255, 255, 255, 0.3)
+    border: 0.0625rem solid rgba(255, 255, 255, 0.3)
 }
 
 @media (min-width: 768px) {
     
     .header-title-wrapper {
-        padding: 0px 1.3%;
+        padding: 0 1.3%;
     }
 
     .header {
         min-width: 768px;
-        /* min-width: 20rem; */
-        /* max-width: 48rem; */
         margin: auto;
         display: flex;
         flex-direction: row;
@@ -137,23 +128,23 @@
 
 
     .logo {
-        margin-top: 46px;
+        margin-top: 2.875rem;
     }
 
     .nav-item {
-        margin-top: 46px;
+        margin-top: 2.875rem;
     }
 
     .site-title {
-        padding: 155px 30% 234px;
+        padding: 9.6875 30% 14.625rem;
     }
 
     .main-title {
-        margin: 0;
+        /* margin: 0; */
     }
 
     .title-text {
-        padding: 20px 0%;
+        padding: 1.25rem 0%;
     }
 
 }
@@ -166,7 +157,7 @@
 
         .site-title {
             max-width: 942px;
-            padding: 155px 260px 234px;
+            padding: 9.6875rem 16.25rem 14.625rem;
         }
 
     }
