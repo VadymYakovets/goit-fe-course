@@ -25,13 +25,18 @@
 
 .header-wrapper {
     background-image: linear-gradient(to top, rgba(238, 215, 138,0.9), rgba(232, 130, 130, 0.9)), 
-                      url('../Img/Layer\ 15.png');
+                      url('../Img/background_img@1x.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-
+@media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .header-wrapper {
+        background-image: linear-gradient(to top, rgba(238, 215, 138,0.9), rgba(232, 130, 130, 0.9)), 
+                          url('../Img/background_img@2x.jpg');
+    }
+}
 
 .page-header {
     max-width: 1215px;
@@ -384,11 +389,4 @@ footer__description {
     font-style: italic;
     color: #ccc;
     font-weight: 100;
-}
-
-@media (min-resolution: 192dpi), (min-resolution: 2dppx) {
-    .header-wrapper {
-        background-image: linear-gradient(to top, rgba(238, 215, 138,0.9), rgba(232, 130, 130, 0.9)), 
-                          url('../Img/Layer\ 15@2x.png');
-    }
 }
