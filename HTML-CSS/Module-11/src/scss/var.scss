@@ -1,0 +1,61 @@
+@function rem($px) {
+    $result: $px / 16;
+    @return #{$result}rem;
+}
+
+@function prc($el, $container){
+    $result: $el / $container * 100%;
+    @return #{$result};
+}
+
+/* размер текста */
+
+$textSizeDesctop: rem(14);
+
+$titleSizeDesctop: rem(30);
+
+/* Colors */
+
+$header-text-color: #fff;
+$header-logo-hover-color:#fbde8a;
+$header-link-hover-color: #fbde8a;
+
+$main-text-color: #000;
+$service-icon-color: #95e1d3;
+
+$social-icon-color: #f38181;
+$social-icon-hover-color: #fff;
+$social-icon-bg-color: #fce38a;
+$social-icon-bg-hover-color: #f38181;
+
+$footer-btn-color: #95e1d3;
+$footer-link-color: #f38181;
+
+
+/* Font-family */
+
+$text-font-family: 'Montserrat', sans-serif;
+$creative-font-family: 'Kaushan Script', cursive;
+$occupation-font-family: 'Roboto', sans-serif;
+
+/* другие переменные */
+
+.link {
+    display: block;
+    text-decoration: none;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.line {
+    margin: auto;
+    height: rem(3);
+    width: rem(60);
+    background-color: #f38181;
+    margin-top: 3.5%;
+    margin-bottom: 3.7%;
+}

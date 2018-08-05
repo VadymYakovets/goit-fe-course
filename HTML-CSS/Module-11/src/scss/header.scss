@@ -1,0 +1,122 @@
+.header-wrapper {
+    background-image: linear-gradient(to top, rgba(238, 215, 138,0.9), rgba(232, 130, 130, 0.9)), 
+                      url('../img/background_img1x.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+            background-image: linear-gradient(to top, rgba(238, 215, 138,0.9), rgba(232, 130, 130, 0.9)), 
+                              url('../img/background_img2x.jpg');
+        }
+}
+
+.page-header {
+    max-width: 1215px;
+    padding: 0;
+    margin: auto;
+}
+
+.page-nav {
+    padding-top: rem(29);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.site-logo {
+    margin-bottom: rem(14);
+
+    &__link {
+        font-family: $text-font-family;
+        color: $header-text-color;
+        font-size: rem(30);
+
+        &:hover {
+            transition-duration: 200ms;
+            color: $header-logo-hover-color;
+        }
+    }
+}
+
+.site-navigation{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: rem(4);
+
+    &__link {
+        font-family: $text-font-family;
+        text-transform: uppercase;
+        font-size: rem(14);
+        color: $header-text-color;
+        padding-bottom: rem(12);
+
+        &:hover {
+            box-shadow: 0 rem(3) 0 $header-link-hover-color;
+            transition-duration: 200ms;
+            color: $header-link-hover-color;
+        }
+    }
+
+
+    &__icon {
+        width: rem(20);
+        height: rem(20);
+        cursor: pointer;
+        fill:$header-text-color;
+        margin-top: rem(-2);
+        padding-bottom: rem(8);
+        
+        &:hover {
+            box-shadow: 0 rem(3) 0 $header-link-hover-color;
+            transition-duration: 200ms;
+            color: $header-link-hover-color;
+            fill: $header-link-hover-color;
+        }
+    }
+}
+
+.header-title {
+    text-align: center;
+    color: $header-text-color;
+    padding-bottom: rem(205);
+
+    &__description {
+        font-family: $creative-font-family;
+        font-size: 4.5rem;
+        font-weight: 100;
+        margin-bottom: -5%;
+        margin-top: rem(110);
+    }
+
+    &__main-title {
+        font-family: $text-font-family;
+        text-transform: uppercase;
+        font-size: 9.275rem;
+        padding: 0 5%;
+        line-height: 9.275rem;
+    }
+
+    &__button-link {
+        max-width: rem(160);
+        min-height: rem(40);
+        font-family: $text-font-family;
+        text-transform: uppercase;
+        font-size: rem(14);
+        color: $header-text-color;
+        border: rem(3) solid $header-text-color;
+        padding: rem(13) rem(28);
+        margin: auto;
+        line-height: rem(40);
+
+        &:hover{
+            background-color: rgba(251, 222, 138, 0.5);
+            box-shadow: rem(-5) rem(6) rem(17) rem(4) rgba(0, 0, 0, 0.11);
+            transform: translateY(rem(-2));
+            transition: 200ms linear;
+            border: rem(3) solid rgba(255, 255, 255, 0.6);
+        }
+    }
+}
+
