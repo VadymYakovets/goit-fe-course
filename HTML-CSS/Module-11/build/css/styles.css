@@ -416,7 +416,7 @@ a {
 }
 
 .header-wrapper {
-  background-image: linear-gradient(to top, rgba(238, 215, 138, 0.9), rgba(232, 130, 130, 0.9)), url("../img/background_img1x.jpg");
+  background-image: linear-gradient(to top, rgba(238, 215, 138, 0.9), rgba(232, 130, 130, 0.9)), url("img/background_img1x.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -824,6 +824,6 @@ a {
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .header-wrapper {
-    background-image: linear-gradient(to top, rgba(238, 215, 138, 0.9), rgba(232, 130, 130, 0.9)), url("../img/background_img2x.jpg");
+    background-image: linear-gradient(to top, rgba(238, 215, 138, 0.9), rgba(232, 130, 130, 0.9)), url("img/background_img2x.jpg");
   }
 }

@@ -1,13 +1,13 @@
 .header-wrapper {
     background-image: linear-gradient(to top, rgba(238, 215, 138,0.9), rgba(232, 130, 130, 0.9)), 
-                      url('../img/background_img1x.jpg');
+                      url('img/background_img1x.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 
     @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
             background-image: linear-gradient(to top, rgba(238, 215, 138,0.9), rgba(232, 130, 130, 0.9)), 
-                              url('../img/background_img2x.jpg');
+                              url('img/background_img2x.jpg');
         }
 }
 
