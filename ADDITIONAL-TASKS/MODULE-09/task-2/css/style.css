@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 100;
+}
+
+.col-12.col-md-4 {
+    padding: 0;
+}
+
+.orange {
+    height: 5rem;
+    background-color: orange;
+    text-align: center;
+    line-height: 5rem;
+}
+
+.pink {
+    height: 5rem;
+    background-color: pink;
+    line-height: 5rem;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .orange-second {
+        color: brown;
+    }
+}

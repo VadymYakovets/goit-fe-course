@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color:red;
+}
+
+.row {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.logo {
+    margin: auto;
+    text-align: center;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 7.93rem;
+}
+
+.logo-link {
+    font-size: 1.5rem;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.nav {
+    justify-content: center;
+}
+
+.nav-link {
+    font-size: 0.875rem;
+    font-weight: 100;
+    margin-top: 0.3125rem;
+    border-radius: 3.125rem/3.125rem;
+    border: 0.0625rem solid rgba(255, 255, 255, 0.0);
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+
+  .nav-link:hover {
+    border: 0.0625rem solid rgba(255, 255, 255, 1);
+}
